@@ -33,12 +33,19 @@ class Handlers  {
         mustacheRequest(request: request, response: response, handler: mustacheHelper(values: values),
                         templatePath:"\(request.documentRoot)/index.html")
     }
-    func login(request: HTTPRequest, response: HTTPResponse) {
+    func developers(request: HTTPRequest, response: HTTPResponse) {
+        var values = MustacheEvaluationContext.MapType()
+        values["title"]="О разработчиках"
+        mustacheRequest(request: request, response: response, handler: mustacheHelper(values: values),
+                        templatePath:"\(request.documentRoot)/developers.html")
+    }
+    func registration(request: HTTPRequest, response: HTTPResponse) {
         var values = MustacheEvaluationContext.MapType()
         values["title"]="Регистрация"
         mustacheRequest(request: request, response: response, handler: mustacheHelper(values: values),
-                        templatePath:"\(request.documentRoot)/login.html")
+                        templatePath:"\(request.documentRoot)/registration.html")
     }
+    
 }
 //////////////swift build
 //.build/debug/perfect-server
@@ -52,7 +59,8 @@ server.documentRoot="webroot"
 
 routes.add(method: .get, uri:"/", handler: handlers.index)
 routes.add(method: .get, uri:"/index", handler: handlers.index)
-routes.add(method: .get, uri:"/login", handler: handlers.login)
+routes.add(method: .get, uri:"/developers", handler: handlers.developers)
+routes.add(method: .get, uri:"/registration", handler: handlers.registration)
 server.addRoutes(routes)
 do {
     try server.start()

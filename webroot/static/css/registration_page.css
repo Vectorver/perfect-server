@@ -1,0 +1,266 @@
+
+
+body{
+    margin: 0px;
+}
+
+#div_1{
+    filter: blur(4px);
+    background-color: #008500;
+    height: 90px;  
+    overflow-y: hidden;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;  
+}
+
+#devices{
+    color: rgb(255, 255, 255);
+    font-family: Comfortaa;
+    font-size: 20px;
+    height: 100px;
+    left: 77.5%;
+    position: absolute;
+    text-align: justify;
+    text-decoration: none;
+    top: 10px;
+    white-space: normal;
+    width: 20%;
+}
+
+#logo{
+    filter: blur(4px);
+    height: 100px;
+    position: absolute;;
+    left: 1px;  
+    width: 140px;
+}
+
+#team{
+    color: rgb(255, 255, 255);
+    font-family: Comfortaa;
+    font-size: 20px;
+    left: 50%;
+    position: absolute;
+    text-align: justify;
+    text-decoration: none;
+    top: 10px;
+    white-space: normal;
+}
+
+#news{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comfortaa;
+    left: 25%;
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+}
+
+#clock{
+    color: rgb(255, 255, 255);
+    font-family: Comfortaa;
+    font-size: 20px;
+    right: 5px;
+    position: absolute;
+    text-align: justify; 
+    top: 10px;
+}
+
+#div_2{
+    filter: blur(4px);
+    background-color: #00ae00;  
+    border-top-left-radius: 25px;
+    height: 55px;
+    left: 90px;
+    position: absolute;
+    top: 50px;
+    width: calc(100vw - 90Px);
+    overflow: hidden;
+}
+
+#registration{ 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comfortaa; 
+    right: 96px;
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+}
+
+#enter{ 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comfortaa; 
+    position: absolute;
+    right: 5px;
+    text-decoration: none;
+    top: 10px;
+}
+
+#r1{
+    color: #00ae00;
+    font-family: Comfortaa; 
+    font-size: 50px;
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 90px;
+}
+
+#login{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 190px;
+}
+
+#log_write{ 
+    font-family: Comfortaa;
+    font-size: 18px;
+    left: 6%;
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 235px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(215, 96, 9);
+    border-color: rgb(215, 96, 9);}
+
+#r2{
+    color: grey;
+    font-family: Comfortaa; 
+    font-size: 20px;
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 250px;
+}
+
+#name{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 300px;
+}
+#name_write{
+    font-family: Comfortaa;
+    font-size: 18px;
+    left: 6%;
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 345px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(215, 96, 9);
+    border-color: rgb(215, 96, 9);
+}
+
+#finame{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 375px;
+}
+
+#finame_write{
+    font-family: Comfortaa;
+    font-size: 18px;
+    left: 6%;
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 420px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(215, 96, 9);
+    border-color: rgb(215, 96, 9);
+}
+
+#pass{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 450px;
+}
+
+#pass_write{
+    font-family: Comfortaa;
+    font-size: 18px;
+    left: 6%;
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 495px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(215, 96, 9);
+    border-color: rgb(215, 96, 9);
+}
+
+#pass_rep{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 525px;
+}
+
+#pass_rep_write{
+    font-family: Comfortaa;
+    font-size: 18px;
+    left: 6%;
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 570px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(215, 96, 9);
+    border-color: rgb(215, 96, 9);
+}
+
+#go{
+    left: 6%;
+    position: absolute;
+    top: 610px;
+    background-color: #008500;
+    border-width: 0px;
+    font-size: 20px;
+    font-family: Comfortaa;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 180px;
+}
+
+#obratno{
+    left: calc(6vw + 250px);
+    position: absolute;
+    top: 620px;
+    color: #008500;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    text-decoration: none;
+}
+
+
+
+

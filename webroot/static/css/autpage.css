@@ -1,0 +1,193 @@
+
+
+body{
+    margin: 0px;
+}
+
+#div_1{
+    filter: blur(4px);
+    background-color: #008500;
+    height: 90px;  
+    overflow-y: hidden;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;  
+}
+
+#devices{
+    color: rgb(255, 255, 255);
+    font-family: Comfortaa;
+    font-size: 20px;
+    height: 100px;
+    left: 77.5%;
+    position: absolute;
+    text-align: justify;
+    text-decoration: none;
+    top: 10px;
+    white-space: normal;
+    width: 20%;
+}
+
+#logo{
+    filter: blur(4px);
+    height: 100px;
+    position: absolute;;
+    left: 1px;  
+    width: 140px;
+}
+
+#team{
+    color: rgb(255, 255, 255);
+    font-family: Comfortaa;
+    font-size: 20px;
+    left: 50%;
+    position: absolute;
+    text-align: justify;
+    text-decoration: none;
+    top: 10px;
+    white-space: normal;
+}
+
+#news{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comfortaa;
+    left: 25%;
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+}
+
+#clock{
+    color: rgb(255, 255, 255);
+    font-family: Comfortaa;
+    font-size: 20px;
+    right: 10px;
+    position: absolute;
+    text-align: justify; 
+    top: 10px;
+}
+
+#div_2{
+    filter: blur(4px);
+    background-color: #00ae00;  
+    border-top-left-radius: 25px;
+    height: 55px;
+    left: 90px;
+    position: absolute;
+    top: 50px;
+    width: calc(100vw - 90px);
+    overflow: hidden;
+}
+
+#registration{ 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comfortaa; 
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+}
+
+#enter{ 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comfortaa; 
+    position: absolute;
+    right: 1px;
+    text-decoration: none;
+    top: 10px;
+}
+#open{
+    color: #00ae00;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 90px;
+    font-size:50px ;
+}
+#log{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 190px;
+}
+#log_write{ 
+    font-family: Comfortaa;
+    font-size: 18px;
+    left: 6%;
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 235px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(215, 96, 9);
+    border-color: rgb(215, 96, 9);
+}
+#pass{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 280px;
+}
+#pass_write{ 
+    font-family: Comfortaa;
+    font-size: 18px;
+    left: 6%;
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    top: 325px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(215, 96, 9);
+    border-color: rgb(215, 96, 9);
+}
+#go{
+    left: 6%;
+    font-size:20px;
+    position: absolute;
+    top: 375px;
+    background-color: #008500;
+    border-width: 0px;
+    font-size: 20px;
+    font-family: Comfortaa;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 180px;
+}
+#go_home{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 22.5%;
+    position: absolute;
+    text-decoration: none;
+    top: 385px;
+}
+#question{
+    color: #00ae00;
+    font-size: 20px;
+    font-family: Comfortaa; 
+    left: 6%;
+    position: absolute;
+    text-decoration: none;
+    top: 420px;
+}
+#reg{
+    color: #00AE00;
+    font-family: Comfortaa;
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: none;
+    white-space: normal;
+}
