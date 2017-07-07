@@ -22,26 +22,34 @@ struct mustacheHelper: MustachePageHandler {
 }
 
 class Handlers  {
-    private let index = "/index"
-    private let help = "/help"
-    private let enter = "/login"
-    private let regist = "/regist"
+    private let index = "/"
+    private let developers = "/developers"
+    private let regist = "/registration"
     
     func index(request: HTTPRequest, response: HTTPResponse) {
         var values = MustacheEvaluationContext.MapType()
         values["title"]="Главная страница"
+        values["regist"] = regist
+        values["index"] = index
+        values["developers"] = developers
         mustacheRequest(request: request, response: response, handler: mustacheHelper(values: values),
                         templatePath:"\(request.documentRoot)/index.html")
     }
     func developers(request: HTTPRequest, response: HTTPResponse) {
         var values = MustacheEvaluationContext.MapType()
         values["title"]="О разработчиках"
+        values["regist"] = regist
+        values["index"] = index
+        values["developers"] = developers
         mustacheRequest(request: request, response: response, handler: mustacheHelper(values: values),
                         templatePath:"\(request.documentRoot)/developers.html")
     }
     func registration(request: HTTPRequest, response: HTTPResponse) {
         var values = MustacheEvaluationContext.MapType()
         values["title"]="Регистрация"
+        values["regist"] = regist
+        values["index"] = index
+        values["developers"] = developers
         mustacheRequest(request: request, response: response, handler: mustacheHelper(values: values),
                         templatePath:"\(request.documentRoot)/registration.html")
     }
