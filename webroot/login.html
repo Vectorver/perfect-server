@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Лаборатория будущего</title>
+        <title>{{title}}</title>
         <link href="static/css/autpage.css" rel="stylesheet" type="text/css">
             <meta charset="UTF-8">
                 <style>
@@ -25,16 +25,17 @@
         
         <script src="static/javascript/time.js"></script>
         
+        
         <div id="div_1">
-            <a id="/devices"  target="_self">
+            
+            <a id="devices" target="_self">
                 Девайсы
             </a>
             
-            <a id="/developers"  target="_self">
+            <a id="team" target="_self">
                 Наша Команда
             </a>
-            
-            <a id="/news" target="_self">
+            <a id="news"  target="_self">
                 Новости
             </a>
             
@@ -65,7 +66,7 @@
             </p>
             <input type="password" id="pass_write">
                 <input type="button" id="go" value="Вход">
-                    <a id="go_home" href="/index" target="_self">
+                    <a id="go_home" href={{index}} target="_self">
                         Вернуться...
                     </a>
                     <p id="question">У вас ещё нет аккаунта Future Lab? Зарегистрируйтесь<a id="reg" href="/registration"> здесь.</a></p>
