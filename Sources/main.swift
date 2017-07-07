@@ -7,24 +7,26 @@ import PerfectMustache
 
 
 
-struct mustacheHelper: MustachePageHandler {
-    var values:  MustacheEvaluationContext.MapType
-    func extendValuesForResponse(context contxt: MustacheWebEvaluationContext, collector: MustacheEvaluationOutputCollector) {
-        contxt.extendValues(with: values)
-        do {
-            try contxt.requestCompleted(withCollector: collector)
-        } catch {
-            let response = contxt.webResponse
-            response.appendBody(string: "\(error)")
-            response.completed()
-        }
-    }
-}
 
 class Handlers  {
     private let index = "/"
     private let developers = "/developers"
     private let regist = "/registration"
+    
+    
+    struct mustacheHelper: MustachePageHandler {
+        var values:  MustacheEvaluationContext.MapType
+        func extendValuesForResponse(context contxt: MustacheWebEvaluationContext, collector: MustacheEvaluationOutputCollector) {
+            contxt.extendValues(with: values)
+            do {
+                try contxt.requestCompleted(withCollector: collector)
+            } catch {
+                let response = contxt.webResponse
+                response.appendBody(string: "\(error)")
+                response.completed()
+            }
+        }
+    }
     
     func index(request: HTTPRequest, response: HTTPResponse) {
         var values = MustacheEvaluationContext.MapType()
